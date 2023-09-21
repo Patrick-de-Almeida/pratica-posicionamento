@@ -1,0 +1,160 @@
+main {
+  font-family: Arial;
+  background-color: #f7f7f7;
+  margin: 0rem;
+  display: grid;
+  justify-items: center;
+}
+
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+body {
+  font-family: Arial;
+  background-color: #f7f7f7;
+  margin: 0rem;
+  display: grid;
+  gap: 3.75rem;
+  justify-items: center;
+  margin-top: 3.75rem;
+}
+
+.intro::before {
+  top: 30px;
+  right: -30px;
+  content: "";
+  position: absolute;
+  width: 3.75rem;
+  height: 0.25rem;
+  background: #e21;
+}
+
+.menu {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.menu a {
+  display: block;
+  background-color: white;
+  padding: 0.938rem 1.875rem;
+  color: #000;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  border: 0.15rem solid white;
+}
+
+.menu a:hover {
+  border: 0.15rem solid #900;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 62.5rem;
+}
+
+.intro {
+  padding: 2.5rem;
+  background-color: white;
+  text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-items: end;
+  gap: 1.25rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+}
+
+.botao {
+  padding: 0.938rem 1.875rem;
+  background-color: #e21;
+  color: white;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.botao:hover {
+  background-color: #900;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+
+p {
+  font-size: 1.25rem;
+  color: black;
+}
+
+.subtitulo {
+  background-image: url("./img/onda.svg");
+  font-size: 4rem;
+  color: #c6c6c6;
+  text-align: right;
+  padding: 2.5rem;
+  align-self: center;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
+}
+
+.vantagens li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.vantagens-item:hover {
+  border: 0.3rem solid #900;
+  border-top-width: 0rem;
+  border-bottom-width: 0rem;
+  border-right-width: 0rem;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
